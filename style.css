@@ -126,12 +126,12 @@
 .card p {
   text-align: center;
 }
-#social {
+#social-container {
   width: 1532px;
   height: 537px;
   background-image: url(assets/social-bg.png);
 }
-.social-content {
+.social {
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.803);
@@ -164,7 +164,7 @@
   opacity: 0.6;
   margin: 10px;
 }
-.social-content h2 {
+.social h2 {
   margin-top: 14px;
   color: rgb(16, 16, 16);
   font-family: Work Sans;
@@ -175,11 +175,70 @@
   text-align: center;
   opacity: 0.7;
 }
-.social-content .icon {
+.social .icon {
   margin: 25.5px;
 }
-.social-content .icon .fa {
+.social .icon .fa {
   font-size: 28px;
   margin: 10px;
   cursor: pointer;
+}
+
+#about .about {
+  margin: 18px 7px;
+  width: 1536;
+  max-height: 536px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#about .about .left img {
+  max-width: 768px;
+  height: 535px;
+  border-radius: 18px;
+}
+#about .about .social-content {
+  margin: 0 43px;
+}
+#about .about .social-content .social-box .heading {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#about .about .social-content .social-box .description {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 12px 0;
+  opacity: 0.7;
+}
+#about .about .social-content .follow {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+#about .about .social-content .icon {
+  text-align: center;
+  margin: 18px;
+}
+#about .about .social-content .fa {
+  font-size: 28px;
+  margin: 10px;
+  cursor: pointer;
+}
+.icon .fa:hover {
+  color: rgb(82, 195, 3);
 }
